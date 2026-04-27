@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\Lab03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EBE5159-BE3B-4817-B81D-40A3D63C96EA}|Lab03\\Lab03.csproj|d:\\.net\\lab03\\lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBE5159-BE3B-4817-B81D-40A3D63C96EA}|Lab03\\Lab03.csproj|solutionrelative:lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EBE5159-BE3B-4817-B81D-40A3D63C96EA}|Lab03\\Lab03.csproj|d:\\.net\\lab03\\lab03\\solid3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBE5159-BE3B-4817-B81D-40A3D63C96EA}|Lab03\\Lab03.csproj|solutionrelative:lab03\\solid3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EBE5159-BE3B-4817-B81D-40A3D63C96EA}|Lab03\\Lab03.csproj|d:\\.net\\lab03\\lab03\\solid2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBE5159-BE3B-4817-B81D-40A3D63C96EA}|Lab03\\Lab03.csproj|solutionrelative:lab03\\solid2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Solid3.cs",
+              "DocumentMoniker": "D:\\.NET\\Lab03\\Lab03\\Solid3.cs",
+              "RelativeDocumentMoniker": "Lab03\\Solid3.cs",
+              "ToolTip": "D:\\.NET\\Lab03\\Lab03\\Solid3.cs",
+              "RelativeToolTip": "Lab03\\Solid3.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T07:12:16.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Solid2.cs",
+              "DocumentMoniker": "D:\\.NET\\Lab03\\Lab03\\Solid2.cs",
+              "RelativeDocumentMoniker": "Lab03\\Solid2.cs",
+              "ToolTip": "D:\\.NET\\Lab03\\Lab03\\Solid2.cs",
+              "RelativeToolTip": "Lab03\\Solid2.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T07:04:16.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET\\Lab03\\Lab03\\Program.cs",
+              "RelativeDocumentMoniker": "Lab03\\Program.cs",
+              "ToolTip": "D:\\.NET\\Lab03\\Lab03\\Program.cs",
+              "RelativeToolTip": "Lab03\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T06:34:50.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

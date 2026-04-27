@@ -1,0 +1,7 @@
+C:\Users\haris\source\repos\OOPS\OOPS\bin\Debug\OOPS.exe.config
+C:\Users\haris\source\repos\OOPS\OOPS\bin\Debug\OOPS.exe
+C:\Users\haris\source\repos\OOPS\OOPS\bin\Debug\OOPS.pdb
+C:\Users\haris\source\repos\OOPS\OOPS\obj\Debug\Class&Object.csproj.AssemblyReference.cache
+C:\Users\haris\source\repos\OOPS\OOPS\obj\Debug\Class&Object.csproj.CoreCompileInputs.cache
+C:\Users\haris\source\repos\OOPS\OOPS\obj\Debug\OOPS.exe
+C:\Users\haris\source\repos\OOPS\OOPS\obj\Debug\OOPS.pdb

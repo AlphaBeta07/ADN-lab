@@ -1,0 +1,7 @@
+C:\Users\haris\source\repos\Constructor\Constructor\bin\Debug\Constructor.exe.config
+C:\Users\haris\source\repos\Constructor\Constructor\bin\Debug\Constructor.exe
+C:\Users\haris\source\repos\Constructor\Constructor\bin\Debug\Constructor.pdb
+C:\Users\haris\source\repos\Constructor\Constructor\obj\Debug\Constructor.csproj.AssemblyReference.cache
+C:\Users\haris\source\repos\Constructor\Constructor\obj\Debug\Constructor.csproj.CoreCompileInputs.cache
+C:\Users\haris\source\repos\Constructor\Constructor\obj\Debug\Constructor.exe
+C:\Users\haris\source\repos\Constructor\Constructor\obj\Debug\Constructor.pdb

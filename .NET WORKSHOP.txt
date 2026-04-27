@@ -1,0 +1,32 @@
+.NET Core WORKSHOP
+
+1. cross-platform framework
+2. unified programming model 
+3. modular middleware pipeline
+4. cloud-ready and scalable
+
+ADO.NET
+
+imp
+1. basic oops concepts
+2.  java - class, object, inheritance ,data type casting, collections, exception handling , database connectivity,
+	  hibernate, Entity Framework 
+3. Database programming - SQL , PL/SQL 
+4. Networking - client-server architecture , protocols, TCP/IP communication 
+5. Software Engineering - Lifecycle, agile methodologies, Project Management Tool (JIRA), Testing manual testing,
+			  Auto testing, API testing 
+
+asp.net core web app 
+asp.net core mvc (model-view-controller) view-controller-model , model-controller-view
+web API/ REST API 
+
+Front end : UI Angular/React
+Back end : web API/REST API
+
+Full Stack Developer -- 
+html,css,js  
+angular/react 
+spring boot / asp.net web api / python based web api / node js
+
+Joomla/moodle/ - easy maintain the static data
+ 

@@ -1,0 +1,7 @@
+D:\.NET\generics\generics\bin\Debug\generics.exe.config
+D:\.NET\generics\generics\bin\Debug\generics.exe
+D:\.NET\generics\generics\bin\Debug\generics.pdb
+D:\.NET\generics\generics\obj\Debug\generics.csproj.AssemblyReference.cache
+D:\.NET\generics\generics\obj\Debug\generics.csproj.CoreCompileInputs.cache
+D:\.NET\generics\generics\obj\Debug\generics.exe
+D:\.NET\generics\generics\obj\Debug\generics.pdb

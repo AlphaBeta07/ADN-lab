@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        input, button { margin: 5px; padding: 5px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .form-section { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Student Management</h1>
+
+    <div class="form-section">
+        <h2>Add Student</h2>
+        ID: <input type="number" id="addId" min="1"><br>
+        Name: <input type="text" id="addName"><br>
+        Age: <input type="number" id="addAge" min="1"><br>
+        Course: <input type="text" id="addCourse"><br>
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <div class="form-section">
+        <h2>Update Student</h2>
+        ID: <input type="number" id="updateId" min="1"><br>
+        Name: <input type="text" id="updateName"><br>
+        Age: <input type="number" id="updateAge" min="1"><br>
+        Course: <input type="text" id="updateCourse"><br>
+        <button onclick="updateStudent()">Update Student</button>
+    </div>
+
+    <div class="form-section">
+        <h2>Search Student</h2>
+        ID: <input type="number" id="searchId" min="1">
+        <button onclick="searchStudent()">Search</button>
+    </div>
+
+    <div id="message" style="color: red; margin: 10px 0;"></div>
+
+    <h2>Student List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="studentRows"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+install VisualStudio
+
+Task - read w3Schools(C#) 
+       write programs- sum of 2 int 
+                       print hello world
+		       loop
+		       factorial
+   		       sum of all elements of array
+
+C# is a object oriented programming lang.
+.NET developed by Microsoft. Used to develop mobile apps, games, and web pages. 			
+	
+Q] Difference between .NET and .NETCORE
+ANS -> .NET -> it is older version.
+               Applied only for windows
+     
+       .NETCORE -> newer/advanced version .
+		   Used for multiple platforms/OS like windows/macOs/Linux .
+		   Used for cross platforms.
+
+
+C# SC                 C# compiler
+->                    ->
+
+JS source code        JS compiler              Intermediate   ->   Justs in Time   ->   Machine Code
+->		      ->			  lang 	             Compiler
+                                              (Used to solve      (Used to compile 
+Python SC             PY compiler            error int the code)   code given by IL)
+->		      ->
+
+JAVA SC               JAVA compiler
+->		      ->
+
+  (COMMON LANG RUNTIME(CLR))
+
+
+Q]  What is CLR,IL,JSC?
+
+Activity 1 - create folder(all data to git)
+CSC filename.cs
+

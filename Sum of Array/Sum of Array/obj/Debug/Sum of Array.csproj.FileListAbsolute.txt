@@ -1,0 +1,7 @@
+C:\Users\haris\source\repos\Sum of Array\Sum of Array\bin\Debug\Sum of Array.exe.config
+C:\Users\haris\source\repos\Sum of Array\Sum of Array\bin\Debug\Sum of Array.exe
+C:\Users\haris\source\repos\Sum of Array\Sum of Array\bin\Debug\Sum of Array.pdb
+C:\Users\haris\source\repos\Sum of Array\Sum of Array\obj\Debug\Sum of Array.csproj.AssemblyReference.cache
+C:\Users\haris\source\repos\Sum of Array\Sum of Array\obj\Debug\Sum of Array.csproj.CoreCompileInputs.cache
+C:\Users\haris\source\repos\Sum of Array\Sum of Array\obj\Debug\Sum of Array.exe
+C:\Users\haris\source\repos\Sum of Array\Sum of Array\obj\Debug\Sum of Array.pdb

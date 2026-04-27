@@ -1,0 +1,21 @@
+MVC stand for - Model View Control
+mvc is a design pattern used to develop scalable web application .
+It seperate application into 3 different responisibilty.
+Model means - data layer
+View - UI 
+controller - contains business logic
+model represent application data amd business logic
+responisbnilty - database interaction, data validation, database rules
+ex of model - 
+public class customer {
+    public string name{get,set},
+    public int id{get,set},
+    public string email{get,set}
+}
+
+View - is responsible user interface what user see on browser is view 
+ex - display data ,form validation ,tables, html , UI
+
+Controller - is brain of MVC 
+It connects model and view. it handles user request and appliocation flow/view
+responsibility - receive request , call model , send data to view

@@ -1,0 +1,7 @@
+C:\Users\haris\source\repos\Properties&encapsulation\Properties&encapsulation\bin\Debug\Properties&encapsulation.exe.config
+C:\Users\haris\source\repos\Properties&encapsulation\Properties&encapsulation\bin\Debug\Properties&encapsulation.exe
+C:\Users\haris\source\repos\Properties&encapsulation\Properties&encapsulation\bin\Debug\Properties&encapsulation.pdb
+C:\Users\haris\source\repos\Properties&encapsulation\Properties&encapsulation\obj\Debug\Properties&encapsulation.csproj.AssemblyReference.cache
+C:\Users\haris\source\repos\Properties&encapsulation\Properties&encapsulation\obj\Debug\Properties&encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\haris\source\repos\Properties&encapsulation\Properties&encapsulation\obj\Debug\Properties&encapsulation.exe
+C:\Users\haris\source\repos\Properties&encapsulation\Properties&encapsulation\obj\Debug\Properties&encapsulation.pdb

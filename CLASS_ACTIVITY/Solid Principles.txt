@@ -1,0 +1,56 @@
+.net : old version
+.net core: new version
+c # basic array function ,oops,method overriding 
+vs installataion 2026
+SOLID principles:
+->It is a object oriented design Principle
+->It is used for maintain,clean and reuse our code.
+-> S : singal responsibility Priciple
+-> O : open or close Principle
+-> L : liskov Substitution Principle
+-> I : interface segregation Principle
+-> D : dependency inversion Principle
+		--------------------------------------------------------
+Singal responsibility Priciple 
+--> eka weli ekch kam kart // one class should only do one class
+
+class Student {
+	Public void  saveStudent(){
+
+	}
+	public void printReport(){
+
+	}
+} // this is bad example 	
+------------------------------------------------------------------------------
+below all are good examples of single Responsibility Principle
+
+class Student {
+	Public String Name {
+	get, set
+	}
+}
+
+class StudentRepo{
+public void save ( student,){
+}
+}
+
+class StudentReport{
+public void Print(student, student)
+{
+}
+}
+
+realtime example - teacher only teaches the subject 
+			-----------------------------------------------------
+Open OR Close Principle --->
+-class should be open for extention but closed for Modification 
+-you should add  new features without doing changes in existing feature
+- realtime example -
+------------------------------------------------------------------------------
+Liskov Substitution Principle---->
+ realtime : car ,bike beahavoir breaking is a bad example
+child class should replace parent class without breaking Program
+ if b is a child of  A  we should be able to use B every Where A is used
+

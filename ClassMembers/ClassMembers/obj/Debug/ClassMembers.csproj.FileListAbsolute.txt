@@ -1,0 +1,7 @@
+C:\Users\haris\source\repos\ClassMembers\ClassMembers\bin\Debug\ClassMembers.exe.config
+C:\Users\haris\source\repos\ClassMembers\ClassMembers\bin\Debug\ClassMembers.exe
+C:\Users\haris\source\repos\ClassMembers\ClassMembers\bin\Debug\ClassMembers.pdb
+C:\Users\haris\source\repos\ClassMembers\ClassMembers\obj\Debug\ClassMembers.csproj.AssemblyReference.cache
+C:\Users\haris\source\repos\ClassMembers\ClassMembers\obj\Debug\ClassMembers.csproj.CoreCompileInputs.cache
+C:\Users\haris\source\repos\ClassMembers\ClassMembers\obj\Debug\ClassMembers.exe
+C:\Users\haris\source\repos\ClassMembers\ClassMembers\obj\Debug\ClassMembers.pdb

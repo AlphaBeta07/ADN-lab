@@ -1,0 +1,14 @@
+deligates -- it is reference at a method it works like function in C, C++
+
+for static methods deligate encapsulates method only but for instance methods it encapsulates methods and instance both 
+
+            class                                                      deligates 
+     public class className();                               public deligate void deligateName();
+
+
+deligates in c# allows you to reference a method like a variable creating more flexible and dynamic program
+to bind function and object 
+
+there are 2 types of deligates 
+1) single cast deligate- we can call one deligate to one function
+2) multi cast deligate - we can call one deligate to multiple function
