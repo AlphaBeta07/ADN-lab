@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Dashboard - QuickBite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --primary: #ff4d4d;
+            --secondary: #2d3436;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #2d3436;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            background: var(--card-bg);
+            padding: 20px 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        h1 { margin: 0; color: var(--primary); }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .order-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.03);
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .order-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--primary);
+        }
+
+        .order-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .order-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .order-id { font-weight: 600; color: #636e72; font-size: 0.9em; }
+        .order-time { font-size: 0.8em; color: #b2bec3; }
+
+        .order-items {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 15px 0;
+        }
+
+        .order-items li {
+            padding: 5px 0;
+            border-bottom: 1px dashed #f1f1f1;
+            font-size: 0.95em;
+        }
+
+        .order-total {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: var(--primary);
+            text-align: right;
+        }
+
+        .stats-bar {
+            background: var(--secondary);
+            color: white;
+            padding: 20px 40px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 40px;
+        }
+
+        .stat-item span { display: block; font-size: 0.8em; opacity: 0.7; }
+        .stat-item strong { font-size: 1.5em; }
+
+        .refresh-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .refresh-btn:hover { opacity: 0.9; }
+
+        .bill-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 15px;
+            width: 100%;
+            transition: background 0.2s;
+        }
+        .bill-btn:hover { background: #219150; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Owner Dashboard</h1>
+            <button class="refresh-btn" onclick="loadOrders()">Refresh Orders</button>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span>Total Orders</span>
+                <strong id="total-orders-count">0</strong>
+            </div>
+            <div class="stat-item">
+                <span>Total Revenue</span>
+                <strong id="total-revenue">₹ 0</strong>
+            </div>
+        </div>
+
+        <div id="orders-grid" class="dashboard-grid">
+            <div class="no-orders">Loading orders...</div>
+        </div>
+    </div>
+
+    <script src="owner.js"></script>
+</body>
+</html>

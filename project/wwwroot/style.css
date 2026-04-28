@@ -1,0 +1,200 @@
+:root {
+    --primary: #ff4d4d;
+    --primary-hover: #fa3131;
+    --secondary: #2d3436;
+    --bg: #fdfdfd;
+    --card-bg: #ffffff;
+    --text: #2d3436;
+    --shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+body {
+    font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 40px;
+    background: linear-gradient(135deg, var(--primary), #ff8a8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+/* Landing Page Links */
+a {
+    text-decoration: none;
+    color: white;
+    background: var(--secondary);
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+a[href="/menu"] {
+    background: var(--primary);
+}
+
+a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Menu Section */
+#menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+#menu button {
+    background: var(--card-bg);
+    color: var(--secondary);
+    border: 2px solid #eee;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow);
+}
+
+#menu button:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: scale(1.02);
+}
+
+/* Cart Section */
+#cart {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px 0;
+}
+
+li {
+    background: var(--card-bg);
+    margin-bottom: 12px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid #f0f0f0;
+}
+
+li button {
+    background: #ffebeb;
+    color: var(--primary);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: var(--primary);
+    color: white;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+#total {
+    color: var(--primary);
+}
+
+/* Global Button Styles */
+button.generate-bill-btn, 
+.container > button:not(.refresh-btn) {
+    background: var(--secondary);
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button.generate-bill-btn:hover {
+    background: #000;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.send-order-btn{
+    background: var(--secondary);
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* Quantity Controls */
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qty-btn {
+    width: 32px !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #f8f8f8 !important;
+    color: var(--secondary) !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    padding: 0 !important;
+    font-size: 1.2rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+}
+
+.qty-btn:hover {
+    background: var(--primary) !important;
+    color: white !important;
+    border-color: var(--primary) !important;
+}
+
+.qty-number {
+    font-weight: 700;
+    min-width: 24px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--secondary);
+}

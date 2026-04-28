@@ -1,0 +1,52 @@
+@page "{id:int}"
+@model CRMProject.Pages.Customers.Edit
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="mx-auto rounded border p-4" style="width: 500px;">
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">
+            @Model.ErrorMessage
+        </div>
+    }
+
+    <form method="post">
+
+        <!-- Hidden Id -->
+        <input type="hidden" asp-for="CustId" />
+
+        <div class="mb-3">
+            <label asp-for="CustName" class="form-label"></label>
+            <input asp-for="CustName" class="form-control" />
+            <span asp-validation-for="CustName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CustEmail" class="form-label"></label>
+            <input asp-for="CustEmail" class="form-control" />
+            <span asp-validation-for="CustEmail" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CustPhone" class="form-label"></label>
+            <input asp-for="CustPhone" class="form-control" />
+            <span asp-validation-for="CustPhone" class="text-danger"></span>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-page="/Customers/Index" class="btn btn-secondary">Cancel</a>
+        </div>
+
+    </form>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
